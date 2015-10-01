@@ -10,12 +10,6 @@
 			  display:flex;
 			  flex-direction: column;
 		}
-		.main {
-		    height: 90%;
-		    width: 100%;
-		    display: table;
-		    background-color: white;
-		}
 		.wrapperMain {
 		    display: table-cell;
 		    height: 100%;
@@ -84,25 +78,23 @@
 		</div>
 		</header>
 		<main>
-			<div class="main">
-				<div class="wrapperMain">
-					<table style="margin: 4px 8px;">
-						<tr>
-							<td width="28%">
-								<img src="DifferentSpectrum.png" width="100%"></img>
-								<img src="colorwheel.png" width="100%"></img>
-							</td>
-							<td rowspan="2">
-								<table id='table' cellspacing="0" align="center"></table>
-							</td>
-							<td width="15%" rowspan="3">
-								<img src="Y0.png" width="100%"></img>
-								<img src="YHalf.png" width="100%"></img>
-								<img src="Y1.png" width="100%"></img>
-							</td>
-						</tr>
-					</table>
-				</div>
+			<div class="wrapperMain">
+				<table style="margin: 0 8px; position: absolute;top: 50%; transform: translate(0, -50%)">
+					<tr>
+						<td width="28%">
+							<img src="DifferentSpectrum.png" width="100%"></img>
+							<img src="colorwheel.png" width="100%"></img>
+						</td>
+						<td rowspan="2">
+							<table id='table' cellspacing="0" align="center"></table>
+						</td>
+						<td width="15%" rowspan="3">
+							<img src="Y0.png" width="100%"></img>
+							<img src="YHalf.png" width="100%"></img>
+							<img src="Y1.png" width="100%"></img>
+						</td>
+					</tr>
+				</table>
 			</div>
 		</main>
 		<footer>
